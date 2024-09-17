@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+img {
+    max-width: 300px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.button {
+    margin: 5px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.yes {
+    background-color: #4CAF50; /* Зеленый */
+    color: white;
+}
+.no {
+    background-color: #f44336; /* Красный */
+    color: white;
+}
